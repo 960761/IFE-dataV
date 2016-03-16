@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 20px;
+  border: 0;
+  color: #333;
+  background: #fff;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: .8em;  
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  padding: 0;
+}
+
+.pd20 {
+  padding: 20px;
+  text-align: center;
+}
+
+.bg {
+  background-color: #fff;
+}
+
+/*方法一：浮动布局*/
+
+.container {
+  margin: 0 auto;
+  background-color: #eee;
+  border: solid 1px #999;
+}
+
+.team-logo {
+  width: 160px;
+  float: left;
+}
+
+.team-intro {
+  margin-left: 220px;
+  margin-right: 140px;
+  overflow: hidden;
+}
+
+.team-list {
+  width: 80px;
+  float: right;
+}
+
+/*方法二：固定布局*/
+
+/*.container {
+  margin: 0 auto;
+  background-color: #eee;
+  border: solid 1px #999;
+  position: relative;
+}
+
+.team-logo {
+  width: 160px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.team-intro {
+  margin-left: 220px;
+  margin-right: 140px;
+  overflow: hidden;
+}
+
+.team-list {
+  width: 80px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}*/
+
+.team-member-img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
