@@ -1,4 +1,4 @@
-# IFE-dataV
+﻿# IFE-dataV
 
 ##百度前端学院2016年春季班IFE-dataV小组团队成员简介：http://yijianc.github.io/IFE-dataV/
 
@@ -6,7 +6,7 @@
 
 02|任务二：零基础HTML及CSS编码（一）：http://yijianc.github.io/IFE-dataV/task_1_1_2.html
 
-03|任务三：三栏式布局：
+03|任务三：三栏式布局：http://yijianc.github.io/IFE-dataV/task_1_1_3.html
 
 04|任务四：定位和居中问题：
 
