@@ -1,0 +1,38 @@
+.proc-overflow {
+  position: relative;
+  overflow: hidden;
+}
+
+.pos-absolute {
+  position: absolute;
+}
+
+/*方法一：这方法就居中了，我也是醉了= =*/
+.box {
+  background-color: #ccc;
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.quarter {
+  background-color: #fc0;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.left {
+  top: -50px;
+  left: -50px;
+}
+
+.right {
+  bottom: -50px;
+  right: -50px;
+}

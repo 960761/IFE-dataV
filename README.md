@@ -8,7 +8,7 @@
 
 03|任务三：三栏式布局：http://yijianc.github.io/IFE-dataV/task_1_1_3.html
 
-04|任务四：定位和居中问题：
+04|任务四：定位和居中问题：http://yijianc.github.io/IFE-dataV/task_1_1_4.html
 
 05|任务五：零基础HTML及CSS编码（二）：
 
