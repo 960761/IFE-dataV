@@ -12,7 +12,7 @@
 
 05|任务五：零基础HTML及CSS编码（二）：http://yijianc.github.io/IFE-dataV/task_1_1_5.html
 
-06|任务六：通过HTML及CSS模拟报纸排版：
+06|任务六：通过HTML及CSS模拟报纸排版：http://yijianc.github.io/IFE-dataV/task_1_1_6.html
 
 07|任务七：实现常见的技术产品官网的页面架构及样式布局：
 
