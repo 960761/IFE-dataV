@@ -47,13 +47,50 @@
     <p>每个城市都有不同的活动信息，请自主查询您所需要了解的城市</p>
 
     <!-- 改用form表单完成 -->
-    <ul>
+    <!-- <ul>
       <li><a href="#">中国</a></li>
-      <li><a href="#">身份</a></li>
+      <li><a href="#">省份</a></li>
       <li><a href="#">城市</a></li>
       <li><a href="#">搜索</a></li>
-    </ul>
+    </ul> -->
     <!-- 改用form表单完成 end -->
+  
+    <form>
+      <ul>
+        <li>
+          <select name="country" placeholder="中国">
+            <option value="" selected="selected" style="display: none;">国家</option>
+            <option value="China">中国</option>
+            <option value="America">美国</option>
+            <option value="Canada">加拿大</option>
+            <option value="Australia">澳大利亚</option>
+          </select>
+        </li>
+        <li>
+          <select name="province" placeholder="省份">
+            <option value="" selected="selected" style="display: none;">省份</option>
+            <option value="beijing">北京市</option>
+            <option value="tianjin">天津市</option>
+            <option value="hebei">河北省</option>
+            <option value="shanxi">陕西省</option>
+            <option value="neimenggu">内蒙古自治区</option>
+            <option value="liaoning">辽宁省</option>
+          </select>          
+        </li>
+        <li>
+          <select name="city" placeholder="城市">
+            <option value="" selected="selected" style="display: none;">城市</option>
+            <option value="beijing">北京市</option>
+            <option value="tianjin">天津市</option>
+            <option value="shanghai">上海市</option>
+            <option value="shenzhen">深圳市</option>
+          </select>
+        </li>
+        <li>
+          <input type="button" value="搜    索"></input>
+        </li>
+      </ul>      
+    </form>
 
   </section>
   <section id="fifth" class="min-width">
@@ -195,7 +232,7 @@
       </form>
     </div>
   </section>
-  <footer>
+  <footer class="min-width">
     <div class="contact-us">
       <h1>联系我们</h1>
       <p>为了更好的获取我们最新的产品咨询，您可以留下您的电子邮箱快速订阅我们的产品资讯</p>

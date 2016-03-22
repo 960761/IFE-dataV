@@ -193,6 +193,45 @@ header nav ul li:last-child a {
   padding-top: 20px;
 }
 
+
+
+#forth form select, #forth form select option {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor: pointer;
+}
+
+#forth form select {
+  font-size: 12px;
+  display: inline-block;
+  line-height: 35px;
+  color: #a8aaaa;
+  width: 235px;
+  height: 35px;
+  border-radius: 2px;
+  text-align: left;
+  padding-left: 15px;
+  background: url(../img/task_1_1_7/dropdown-btn.png) no-repeat 210px center;
+  border:none;
+}
+
+#forth form select option {
+  background-color: #e3e3e4;
+}
+
+#forth form input[type=button] {
+  width: 235px;
+  height: 35px;
+
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+  background-color: #be4f48;
+  cursor: pointer;
+}
+
 #forth ul {
   padding-top: 50px;
 }
