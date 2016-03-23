@@ -1,0 +1,77 @@
+.container {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row;
+  -webkit-flex-flow: row;
+}
+
+.box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 150px;
+  border: #f00 solid 1px;
+  margin-bottom: 20px;
+}
+
+.box.one {
+  height: 120px;
+}
+
+.box.two {
+  height: 100px;
+}
+
+.box.three {
+  height: 40px;
+}
+
+.box.four {
+  border: #0f0 solid 1px;
+  height: 200px;
+}
+
+@media all and (min-width: 641px) {
+  .container {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+  }
+}
+
+@media all and (max-width: 640px) {
+  .container {
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    flex-flow: wrap;
+    -webkit-flex-flow: wrap;
+  }
+
+  .box.one {
+    order: 2;
+    -webkit-order: 2;
+  }
+
+  .box.two {
+    order: 3;
+    -webkit-order: 3;
+  }
+
+  .box.three {
+    order: 4;
+    -webkit-order: 4;
+  }
+
+  .box.four {
+    order: 1;
+    -webkit-order: 1;
+  }
+}

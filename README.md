@@ -20,7 +20,7 @@
 
 09| 使用HTML/CSS实现一个复杂页面：
 
-10| Flexbox 布局练习：
+10| Flexbox 布局练习：http://yijianc.github.io/IFE-dataV/task_1_1_10.html
 
 11| 移动Web页面布局实践：
 
