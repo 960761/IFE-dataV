@@ -1,0 +1,429 @@
+.main {
+  width: 890px;
+  height: 1210px;
+  padding: 0 70px 0 60px;
+  background-color: #eeedec;
+
+  margin-left: 260px; /*注释掉这行*/
+}
+
+.box {
+  height: 360px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*border: 1px solid rgba(51, 51, 102, .4);*/
+  border: 1px solid #d8d9db;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;;
+  border-radius: 8px;
+  margin: 5px 0;
+  background-color: #fff;
+}
+
+.box > h1 {
+  font: 12px 黑体;
+  color: #aaa;
+  background-color: #f4f5f6;
+
+  height: 39px;
+  padding-left: 20px;
+  line-height: 39px;
+  border-bottom: 1px solid #e7e8eb;
+
+  border-top-left-radius: inherit;
+  -webkit-border-top-left-radius: inherit;
+  -moz-border-radius-topleft: inherit;
+  border-top-right-radius: inherit;
+  -moz-border-radius-topright: inherit;
+}
+
+.size-large {
+  width: 530px;
+}
+
+.size-small {
+  width: 350px;
+}
+
+.main ul.tab-control {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.main ul.tab-control li {
+  display: inline-block;
+  float: left;
+  margin-right: 3px;
+}
+
+.main ul.tab-control li > label {
+  font: 12px 黑体 Regular;
+  color: #535353;
+  text-align: center;
+
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 28px;
+  width: 85px;
+  line-height: 28px;
+  background-color: #ededef;
+
+  border-bottom: 1px solid #cbcccc;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  cursor: pointer;
+}
+
+.main ul.tab-control li > [id*="tab"] {
+  display: none;
+}
+
+.main ul.tab-control li > [id*="tab"]:checked ~ label {
+  border: 1px solid #cacbcb;
+  background-color: #fff;
+  border-bottom: none;
+  position: relative;
+  z-index: 10;
+}
+
+.main ul.tab-control li > [id*="tab"]:checked ~ [id*="tab-panel"] {
+  display: block;
+  width: 490px;
+  position: absolute;
+  left: 0;
+  top: 27px;
+  padding: 30px 50px 35px 35px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #cacbcb;
+  -webkit-border-radius: 0 3px 3px 3px;
+  -moz-border-radius: 0 3px 3px 3px;
+  border-radius: 0 3px 3px 3px;
+}
+
+.main ul.tab-control li > [id*="tab-panel"] > table {
+  font: 12px 宋体;
+  color: #535353;
+  width: 100%;
+  border: 1px solid #ddd;
+  text-align: center;
+  line-height: 28px;
+  border-collapse: collapse;
+}
+
+.main ul.tab-control li > [id*="tab-panel"] > table td {
+  border: 1px solid #ddd;
+}
+
+.main ul.tab-control li > [id*="tab-panel"] > table td:hover {
+  background-color: #f4f5f6;
+}
+
+.main form.project-search {
+  padding: 15px 35px 35px 35px;
+}
+
+.main form.project-search .pro-detail {
+  font: 12px 微软雅黑 Regular;
+  color: #535353;
+  border-bottom: 1px solid #cacbcb;
+  padding-left: 10px;
+}
+
+.main form.project-search .pro-detail label {
+  color: #c3c2c2;
+}
+
+.main form.project-search .pro-detail > input {
+  border: none;
+  line-height: 30px;
+  width: 100%;
+}
+
+.main form.project-search .pro-detail:nth-child(2) {
+  width: 85px;
+  border-right: 1px solid #cacbcb;
+}
+
+.main form.project-search .pro-detail:nth-child(3) {
+  width: 170px;
+}
+
+.main form.project-search .pro-detail:nth-child(4) {
+  clear: both;
+}
+
+.main form.project-search .pro-detail #pro-desc {
+  width: 100%;
+  height: 128px;
+  border: none;
+  overflow: hidden;
+}
+
+.main form.project-search div.pro-detail {
+  border: none;
+  padding-top: 5px;
+}
+
+.main form.project-search div.pro-detail > p:first-child {
+  height: 28px;
+  line-height: 28px;
+  /*vertical-align: sub;*/
+}
+
+.main form.project-search div.pro-detail > p:first-child > input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 14px;
+  height: 14px;
+  vertical-align: sub;
+  background-color: #d5d5d5;
+  cursor: pointer;
+}
+
+.main form.project-search div.pro-detail > p:first-child > input[type="checkbox"]:checked {
+  background: #d5d5d5 url("../img/task_1_1_9/icon-checked.png") no-repeat center;
+}
+
+.main form.project-search div.pro-detail > p:last-child > input {
+  width: 50px;
+  height: 25px;
+  font: 12px 黑体;
+  color: #fff;
+  background-color: #388ac1;
+
+  border: none;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.main div.calendar {
+  font: 12px 黑体;
+  color: #535353;
+  width: 310px;
+  height: 285px;
+  margin: 10px auto 20px auto;
+}
+
+.main div.calendar > ul.date-selected {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row;
+  -webkit-flex-flow: row;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+
+.main div.calendar > ul.date-selected li {
+  line-height: 20px;
+  text-align: center;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  height: 20px;
+  width: 65px;
+  border: 1px solid #cececf;
+
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+
+  cursor: pointer;
+}
+
+.main div.calendar > ul.date-selected li:first-child {
+  width: 65px;
+}
+
+.main div.calendar > ul.date-selected li:nth-child(2) {
+  width: 85px;
+}
+
+.main div.calendar > ul.date-selected li:nth-child(3) {
+  width: 75px;
+}
+
+.main div.calendar > ul.date-selected li > .dropdown-menu {
+  display: inline-block;
+  width: 7px;
+  height: 20px;
+  background: url("../img/task_1_1_9/dropdown.png") no-repeat center;
+  margin-right: 5px;
+}
+
+.main div.calendar > ul.weekday {
+  width: 100%;
+  height: 33px;
+  margin-top: 10px;
+  border-top: 2px solid #65a9dd;
+  border-bottom: 1px solid #e1e1e2;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row;
+  -webkit-flex-flow: row;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+}
+
+.main div.calendar > ul.weekday li {
+  display: block;
+  width: 42px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.main div.calendar > ul.day {
+  margin-top: 5px;
+}
+
+.main div.calendar > ul.day > div {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row;
+  -webkit-flex-flow: row;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+}
+
+.main div.calendar > ul.day > div > li {
+  /*display: block;*/
+  width: 42px;
+  height: 43px;
+  margin-bottom: 2px;
+
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: column;
+  -webkit-flex-flow: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  text-align: center;
+  cursor: pointer;
+}
+
+.main div.calendar > ul.day > div > li > p.holiday {
+  color: #c9161d;
+}
+
+.main div.calendar > ul.day > div > li.selected, .main div.calendar > ul.day > div > li:not(:empty):hover {
+  border: 1px solid #f5c21d;
+}
+
+.main div.table-wrapper {
+  width: 450px;
+  height: 280px;
+  padding: 20px 40px;
+}
+
+.main div.table-wrapper > table {
+  font: 12px 黑体;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border: 1px solid #c2c3c3;
+  cursor: pointer;
+}
+
+.main div.table-wrapper > table td, .main div.table-wrapper > table th {
+  border: 1px solid #c2c3c3;
+}
+
+.main div.table-wrapper > table th {
+  font-size: 13px;
+  border-bottom: 2px solid #c2c3c3;
+}
+
+.main div.table-wrapper > table tr:hover {
+  background-color: #f3f5f6;
+}
+
+.main div.table-wrapper > table tr > td:last-child, .main div.table-wrapper > table tr > th:last-child {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.main div.table-wrapper > table .index-bar {
+  display: inline-block;
+  height: 4px;
+  width: 170px;
+  margin-left: 20px;
+  position: relative;
+  top: -3px;
+  background-color: #dcdcdc;
+}
+
+.main div.table-wrapper > table .index-bar > p {
+  height: 100%;
+  background-color: #7ecaf0;
+}
+
+.main div.table-wrapper > table .index-bar > p[class*="top-3"] {
+  background-color: #ec6d51;
+}
+
+.wp85 {
+  width: 85%;
+}
+
+.wp75 {
+  width: 75%;
+}
+
+.wp65 {
+  width: 65%;
+}
+
+.wp55 {
+  width: 55%;
+}
+
+.wp50 {
+  width: 50%;
+}
+
+.wp45 {
+  width: 45%;
+}
+
+.wp40 {
+  width: 40%;
+}
+
+.wp35 {
+  width: 35%;
+}
+
+.wp30 {
+  width: 30%;
+}
+
+.wp25 {
+  width: 25%;
+}
