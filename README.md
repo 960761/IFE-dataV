@@ -28,9 +28,9 @@
 
 ##百度前端学院2016年春季班第二阶段DEMO
 
-13| 零基础JavaScript编码（一）：http://yijianc.github.io/IFE-dataV/task_1_1_10.html
+13| 零基础JavaScript编码（一）：http://yijianc.github.io/IFE-dataV/task_2_1_13.html
 
-14| 零基础JavaScript编码（二）：
+14| 零基础JavaScript编码（二）：http://yijianc.github.io/IFE-dataV/task_2_1_14.html
 
 15| 零基础JavaScript编码（三）：
 
