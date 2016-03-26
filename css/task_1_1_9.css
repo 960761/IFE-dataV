@@ -293,11 +293,11 @@
   text-align: center;
 }
 
-.main div.calendar > ul.day {
+.main div.calendar > div.day {
   margin-top: 5px;
 }
 
-.main div.calendar > ul.day > div {
+.main div.calendar > div.day > ul {
   display: flex;
   display: -webkit-flex;
   flex-flow: row;
@@ -306,7 +306,7 @@
   -webkit-justify-content: space-around;
 }
 
-.main div.calendar > ul.day > div > li {
+.main div.calendar > div.day > ul > li {
   /*display: block;*/
   width: 42px;
   height: 43px;
@@ -327,11 +327,11 @@
   cursor: pointer;
 }
 
-.main div.calendar > ul.day > div > li > p.holiday {
+.main div.calendar > div.day > ul > li > p.holiday {
   color: #c9161d;
 }
 
-.main div.calendar > ul.day > div > li.selected, .main div.calendar > ul.day > div > li:not(:empty):hover {
+.main div.calendar > div.day > ul > li.selected, .main div.calendar > div.day > ul > li:not(:empty):hover {
   border: 1px solid #f5c21d;
 }
 
