@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务十三：零基础JavaScript编码（一）</title>
+</head>
+<body>
+
+    <label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
+    <button id="button">确认填写</button>
+
+    <div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+
+    <script type="text/javascript">
+
+        (function() {
+            /*
+             在注释下方写下代码
+             给按钮button绑定一个点击事件
+             在事件处理函数中
+             获取aqi-input输入的值，并显示在aqi-display中
+             */
+            var btn = document.getElementById('button');
+
+            if (btn.addEventListener) {
+                //支持addEventListener的浏览器
+                btn.addEventListener('click', outputValue, false);
+            } else {
+                //IE不支持addEventListener
+                btn.attachEvent('onclick', outputValue, false);
+            }
+            
+            function outputValue() {
+                var inputData = document.getElementById('aqi-input').value.trim(),   //取得用户输入值
+                    outputData = document.getElementById('aqi-display');        //输出值
+
+                //判断空格
+                if (inputData == '') {
+                    outputData.textContent = '请输入空气质量值！';
+                    return;
+                }
+
+                //判断是否输入了数字
+                if (isInt(inputData)) {
+                    outputData.textContent = inputData;
+                } else {
+                    outputData.textContent = '请输入空气质量值！';
+                }
+            }
+            //判断数字
+            function isInt(srcData) {
+                var num = '0123456789';
+                for (var i = 0; i < srcData.length; i++) {
+                    if (num.indexOf(srcData[i]) == -1 )
+                            return false;
+                }
+                return true;
+            }
+        })();
+
+    </script>
+
+</body>
+</html>

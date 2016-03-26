@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务十四：零基础JavaScript编码（二）</title>
+</head>
+<body>
+    <h3>污染城市列表</h3>
+    <ul id="aqi-list">
+        <!--
+            <li>第一名：福州（样例），10</li>
+              <li>第二名：福州（样例），10</li> -->
+    </ul>
+
+    <script type="text/javascript">
+
+        var aqiData = [
+            ["北京", 90],
+            ["上海", 50],
+            ["福州", 10],
+            ["广州", 50],
+            ["成都", 90],
+            ["西安", 100]
+        ],
+            AQI_BAD_MIN = 60;
+
+        (function () {
+
+            /*
+             在注释下方编写代码
+             遍历读取aqiData中各个城市的数据
+             将空气质量指数大于60的城市显示到aqi-list的列表中
+             */
+            //根据空气质量指数排序并筛选城市
+            function cityRank(src) {
+                //排序
+                var outputData = src.sort(function (a, b) {
+                    return b[1] - a[1];
+                });
+                //过滤
+                return outputData.filter(function (item, index, arr) {
+                    return item[1] > AQI_BAD_MIN;
+                })
+            }
+            //将筛选排序后的结果贴到DOM结构
+            function renderList() {
+                var returnHtml = '',
+                    cityRankData = cityRank(aqiData);
+
+                cityRankData.forEach(function (item, index, arr) {
+                    returnHtml += '<li>';
+                    returnHtml += '第' + (index + 1) + '名：' + item[0] + '，' + item[1];
+                    returnHtml += '</li>';
+                });
+                document.getElementById('aqi-list').innerHTML = returnHtml;
+            }
+            //执行函数
+            renderList();
+
+//            //将二维数组数据转为对象
+//            function transCityDataFormat(src) {
+//                var outputData = {},
+//                    row;
+//                for (var i = 0, len = src.length; i < len; i++) {
+//                    row = src[i];
+//                    outputData[row[0]] = row[1];
+//                    console.log(outputData);
+//                }
+//                return outputData;
+//            }
+//            transCityDataFormat(aqiData);
+        })();
+
+    </script>
+</body>
+</html>
