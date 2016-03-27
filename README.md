@@ -34,7 +34,7 @@
 
 15| 零基础JavaScript编码（三）：http://yijianc.github.io/IFE-dataV/task_2_1_15.html
 
-16| 零基础JavaScript编码（四）：
+16| 零基础JavaScript编码（四）：http://yijianc.github.io/IFE-dataV/task_2_1_16.html
 
 17| 零基础JavaScript编码（五）：
 

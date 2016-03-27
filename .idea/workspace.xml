@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="489758b4-af8a-4198-97a4-e65963f0b2ad" name="Default" comment="task_2_1_16，封装了EventUtil">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/task_2_1_16.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/EventUtil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/task_2_1_16.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_2_1_16.html" />
+    <list default="true" id="489758b4-af8a-4198-97a4-e65963f0b2ad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_2_1_15.html" afterPath="$PROJECT_DIR$/task_2_1_15.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <list id="e64764f4-4bf6-445e-b809-b0ea53bbdbd8" name="Failed commit: Default" comment="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
     <ignored path="IFE-dataV.iws" />
@@ -30,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
+            <state relative-caret-position="252">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -46,70 +41,6 @@
             <state relative-caret-position="378">
               <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="30" selection-end-column="50" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task_2_1_13.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_2_1_13.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task_2_1_14.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_2_1_14.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task_2_1_15.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_2_1_15.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task_2_1_16.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task_2_1_16.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task_2_1_16.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/task_2_1_16.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task_2_1_16.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/task_2_1_16.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-              <folding>
-                <marker date="1459103585636" expanded="true" signature="990:1023" placeholder="..." />
-                <marker date="1459103585636" expanded="true" signature="994:1018" placeholder="..." />
-                <marker date="1459103585636" expanded="true" signature="1051:1092" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -140,7 +71,6 @@
         <option value="$PROJECT_DIR$/task_1_1_9.html" />
         <option value="$PROJECT_DIR$/task_2_1_13.html" />
         <option value="$PROJECT_DIR$/task_2_1_14.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/task_2_1_15.html" />
         <option value="$PROJECT_DIR$/task_2_1_16.js" />
         <option value="$PROJECT_DIR$/EventUtil.js" />
@@ -149,6 +79,7 @@
         <option value="$PROJECT_DIR$/js/task_2_1_16.js" />
         <option value="$PROJECT_DIR$/css/task_2_1_16.css" />
         <option value="$PROJECT_DIR$/task_2_1_16.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -327,7 +258,7 @@
       <workItem from="1458969989161" duration="971000" />
       <workItem from="1458970994817" duration="1301000" />
       <workItem from="1458986499485" duration="24538000" />
-      <workItem from="1459046129789" duration="34432000" />
+      <workItem from="1459046129789" duration="34529000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
       <created>1458971047587</created>
@@ -364,11 +295,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459016458276</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task_2_1_16，封装了EventUtil">
+      <created>1459105731203</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1459105731203</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61242000" />
+    <option name="totallyTimeSpent" value="61339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -520,30 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_2_1_13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_2_1_14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task_1_1_9.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -561,14 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="360" column="35" selection-start-line="358" selection-start-column="26" selection-end-line="360" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/EventUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="30" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -593,6 +499,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/task_2_1_16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task_2_1_15.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -601,10 +515,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_2_1_16.html">
+    <entry file="file://$PROJECT_DIR$/task_2_1_14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="160">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_2_1_13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/EventUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="30" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
           <folding />
         </state>
       </provider>
