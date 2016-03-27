@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="489758b4-af8a-4198-97a4-e65963f0b2ad" name="Default" comment="task_2_1_15">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_2_1_15.html" />
+    <list default="true" id="489758b4-af8a-4198-97a4-e65963f0b2ad" name="Default" comment="task_2_1_16，封装了EventUtil">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/task_2_1_16.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/EventUtil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/task_2_1_16.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_2_1_16.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_2_1_15.html" afterPath="$PROJECT_DIR$/task_2_1_15.html" />
     </list>
     <list id="e64764f4-4bf6-445e-b809-b0ea53bbdbd8" name="Failed commit: Default" comment="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
     <ignored path="IFE-dataV.iws" />
@@ -26,36 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="task_2_1_13.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_2_1_13.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task_2_1_14.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_2_1_14.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task_2_1_15.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task_2_1_15.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1252">
-              <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,12 +40,88 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="EventUtil.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/EventUtil.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="30" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_2_1_13.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_2_1_13.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_2_1_14.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_2_1_14.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_2_1_15.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task_2_1_15.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_2_1_16.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task_2_1_16.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_2_1_16.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/task_2_1_16.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_2_1_16.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/task_2_1_16.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+              <folding>
+                <marker date="1459103585636" expanded="true" signature="990:1023" placeholder="..." />
+                <marker date="1459103585636" expanded="true" signature="994:1018" placeholder="..." />
+                <marker date="1459103585636" expanded="true" signature="1051:1092" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -90,8 +140,15 @@
         <option value="$PROJECT_DIR$/task_1_1_9.html" />
         <option value="$PROJECT_DIR$/task_2_1_13.html" />
         <option value="$PROJECT_DIR$/task_2_1_14.html" />
-        <option value="$PROJECT_DIR$/task_2_1_15.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/task_2_1_15.html" />
+        <option value="$PROJECT_DIR$/task_2_1_16.js" />
+        <option value="$PROJECT_DIR$/EventUtil.js" />
+        <option value="$PROJECT_DIR$/js/EventUtil.js" />
+        <option value="$PROJECT_DIR$/task_2_1_16.css" />
+        <option value="$PROJECT_DIR$/js/task_2_1_16.js" />
+        <option value="$PROJECT_DIR$/css/task_2_1_16.css" />
+        <option value="$PROJECT_DIR$/task_2_1_16.html" />
       </list>
     </option>
   </component>
@@ -131,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -151,8 +207,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IFE-dataV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IFE-dataV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IFE-dataV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IFE-dataV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,6 +246,15 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Boyce\Documents\GitHub\IFE-dataV\css" />
+      <recent name="C:\Users\Boyce\Documents\GitHub\IFE-dataV\js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -221,7 +315,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Boyce\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -232,7 +326,8 @@
       <updated>1458969982171</updated>
       <workItem from="1458969989161" duration="971000" />
       <workItem from="1458970994817" duration="1301000" />
-      <workItem from="1458986499485" duration="21511000" />
+      <workItem from="1458986499485" duration="24538000" />
+      <workItem from="1459046129789" duration="34432000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
       <created>1458971047587</created>
@@ -262,11 +357,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459002757914</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task_2_1_15">
+      <created>1459016458276</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1459016458276</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23783000" />
+    <option name="totallyTimeSpent" value="61242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -274,7 +376,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3249258" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -306,13 +408,69 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
     <MESSAGE value="README update" />
     <MESSAGE value="task_2_1_13, task_2_1_14" />
-    <option name="LAST_COMMIT_MESSAGE" value="task_2_1_13, task_2_1_14" />
+    <MESSAGE value="task_2_1_15" />
+    <MESSAGE value="task_2_1_16，封装了EventUtil" />
+    <option name="LAST_COMMIT_MESSAGE" value="task_2_1_16，封装了EventUtil" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/task_2_1_13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_2_1_14.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_2_1_15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_2_1_16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task_2_1_16.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459103585636" expanded="true" signature="990:1023" placeholder="..." />
+            <marker date="1459103585636" expanded="true" signature="994:1018" placeholder="..." />
+            <marker date="1459103585636" expanded="true" signature="1051:1092" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task_1_1_9.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -352,27 +510,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/task_1_1_9.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="182" column="2" selection-start-line="182" selection-start-column="2" selection-end-line="182" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_1_1_9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
-          <folding>
-            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#1;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -380,22 +517,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_2_1_13.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task_2_1_14.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="160">
           <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task_2_1_13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -408,13 +544,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_2_1_15.html">
+    <entry file="file://$PROJECT_DIR$/task_1_1_9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1252">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+        <state relative-caret-position="441">
+          <caret line="303" column="19" selection-start-line="303" selection-start-column="19" selection-end-line="303" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#1;n#div#0;n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task_1_1_9.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="360" column="35" selection-start-line="358" selection-start-column="26" selection-end-line="360" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/EventUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="30" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task_2_1_16.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task_2_1_16.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+          <folding>
+            <marker date="1459103585636" expanded="true" signature="990:1023" placeholder="..." />
+            <marker date="1459103585636" expanded="true" signature="994:1018" placeholder="..." />
+            <marker date="1459103585636" expanded="true" signature="1051:1092" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_2_1_15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_2_1_16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
