@@ -122,7 +122,7 @@ function citySelectChange() {
     if (citySelected.value !== pageState.nowSelectCity) {
         // 设置对应数据
         pageState.nowSelectCity = citySelected.value;
-        chartData = aqiSourceData[pageState.nowSelectCity];
+//        chartData = aqiSourceData[pageState.nowSelectCity];
     }
 
     // 调用图表渲染函数
@@ -190,54 +190,83 @@ function initCitySelector() {
 function initAqiChartData() {
     // 将原始的源数据处理成图表需要的数据格式
     // 处理好的数据存到 chartData 中
+    // 借鉴@王成强的方法，地址https://github.com/Scimanyd/baidu-ife-study/tree/master/task-17
+    chartData = {};
+    var dayIndex = 0,
+        weekIndex = 1,
+        startDay = '2016-01-01',
+        dataGrandTotal = 0,
+        dayGrandTotal = 0,
+        dataStore, dataLen,
+        nextDay = function (day) {
+            var startDayTemple = new Date(day);
+            startDayTemple.setDate(startDayTemple.getDate() + 1);
+            return startDayTemple;
+        };
+
     pageState.nowSelectCity = citySelected.value;
-    var date, weekDay, i = 0, sum = 0, week= 1,
-        city = pageState.nowSelectCity;
-//    var dataSrc = transDataFormat(pageState.nowSelectCity);
+    dataStore = aqiSourceData[pageState.nowSelectCity];
+    dataLen = Object.keys(dataStore).length;
+    console.log(dataLen);
+
+    // 转换日期粒度
     switch (pageState.nowGraTime) {
-        case 'day': chartData = aqiSourceData[city]; break;
+        case 'day': chartData = dataStore; break;
         case 'week':
-            chartData = {};
-            i =0;
-            sum = 0;
-            for (var item in aqiSourceData[city]) {
-                date = new Date(item);
-                weekDay = date.getDay();
-                i++;
-                sum += aqiSourceData[city][item];
-                if (weekDay == 6) {
-                    chartData['2016年第' + week + '周'] = Math.round(sum / i);
-                    i = 0;
-                    sum = 0;
-                    week++;
-                } else {
-                    i++;
-                    sum += aqiSourceData[city][item];
+            // 空气质量指数累加，天数累加
+            for (var item in dataStore) {
+                if (dataStore.hasOwnProperty(item)){
+                    dataGrandTotal += dataStore[item];
+                    dayGrandTotal++;
+                    dayIndex++;
+
+                    // 判断是否一周的开始（周一）
+                    var mon = new Date(item).getDay() === 0,
+                        weekTitle = startDay + '至' + item + '，' + '第' + weekIndex + '周';
+                    if (mon || dayIndex >= dataLen) {
+                        chartData[weekTitle] = Math.round(dataGrandTotal / dayGrandTotal);
+                        weekIndex++;
+
+                        // 清零
+                        dataGrandTotal = 0;
+                        dayGrandTotal = 0;
+
+                        // 下周开始日期
+                        startDay = getDateStr(nextDay(item));
+                        console.log(startDay);
+                    }
                 }
+
             }
-            chartData['2016年第' + week + '周'] = Math.round(sum / i);
             break;
         case 'month':
-            chartData = {};
-            i = 0;
-            sum = 0;
-            var month = -1;
-            for (var item in aqiSourceData[city]) {
-                date = new Date(item);
-                if (month == -1) {
-                    month = date.getMonth() + 1;
-                } else if (date.getMonth() + 1 != month) {
-                    chartData['2016-0' + month] = Math.round(sum / i);
-                    month = date.getMonth() + 1;
-                    i = 0;
-                    sum = 0;
+            for (var item in dataStore) {
+                if (dataStore.hasOwnProperty(item)) {
+                    dataGrandTotal += dataStore[item];
+                    dayGrandTotal++;
+                    dayIndex++;
+
+                    // 判断是否本月最后一天
+                    var currentMonth = new Date(item).getMonth(),
+                        lastDate = nextDay(item).getMonth() > currentMonth,
+                        monthTitle = startDay + '至' + item + '，'  + currentMonth + '月';
+                    if (lastDate || dayIndex >= dataLen) {
+                        chartData[monthTitle] = Math.round(dataGrandTotal / dayGrandTotal);
+
+                        // 清零
+                        dataGrandTotal = 0;
+                        dayGrandTotal = 0;
+
+                        // 下个月开始时间
+                        startDay = getDateStr(nextDay(item));
+                        console.log(startDay);
+                    }
                 }
-                i++;
-                sum += aqiSourceData[city][item];
+
             }
-            chartData['2016-0' + month] = Math.round(sum / i);
             break;
     }
+
     renderChart();
 }
 
