@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="489758b4-af8a-4198-97a4-e65963f0b2ad" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <list id="e64764f4-4bf6-445e-b809-b0ea53bbdbd8" name="Failed commit: Default" comment="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
     <ignored path="IFE-dataV.iws" />
@@ -296,7 +295,7 @@
       <workItem from="1458986499485" duration="24538000" />
       <workItem from="1459046129789" duration="35874000" />
       <workItem from="1459139159769" duration="78475000" />
-      <workItem from="1459313719307" duration="8397000" />
+      <workItem from="1459313719307" duration="8407000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
       <created>1458971047587</created>
@@ -382,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459324045745</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="README update">
+      <created>1459324145311</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1459324145311</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149556000" />
+    <option name="totallyTimeSpent" value="149566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
