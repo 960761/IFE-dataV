@@ -28,8 +28,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-237">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="126">
+              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -296,7 +296,7 @@
       <workItem from="1458986499485" duration="24538000" />
       <workItem from="1459046129789" duration="35874000" />
       <workItem from="1459139159769" duration="78475000" />
-      <workItem from="1459313719307" duration="8145000" />
+      <workItem from="1459313719307" duration="8296000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
       <created>1458971047587</created>
@@ -368,11 +368,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459320442601</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="README update">
+      <created>1459323903433</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1459323903433</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149304000" />
+    <option name="totallyTimeSpent" value="149455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -410,12 +417,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
-    <MESSAGE value="README update" />
     <MESSAGE value="task_2_1_13, task_2_1_14" />
     <MESSAGE value="task_2_1_15" />
     <MESSAGE value="task_2_1_16，封装了EventUtil" />
     <MESSAGE value="task_2_1_17" />
-    <option name="LAST_COMMIT_MESSAGE" value="task_2_1_17" />
+    <MESSAGE value="README update" />
+    <option name="LAST_COMMIT_MESSAGE" value="README update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -702,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="126">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding />
         </state>
       </provider>

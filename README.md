@@ -1,6 +1,7 @@
-﻿#[**百度前端技术学院**](http://ife.baidu.com/) -- [**任务列表**](http://ife.baidu.com/task/all
+﻿#[**百度前端技术学院**](http://ife.baidu.com/) -- [**任务列表**](http://ife.baidu.com/task/all)
 
-##[**IFE春季班第一阶段任务官方简介**](http://mp.weixin.qq.com/s?__biz=MzA4MjUyNjY3Nw==&mid=401956006&idx=1&sn=bbf72ea5c17894c3a5423d8b3bdb7d9a#rd) -- 我的DEMO
+##[**IFE春季班第一阶段任务官方简介**](http://mp.weixin.qq.com/s?__biz=MzA4MjUyNjY3Nw==&mid=401956006&idx=1&sn=bbf72ea5c17894c3a5423d8b3bdb7d9a#rd)
+-- 我的DEMO：
 
 01| [**零基础HTML编码**](http://yijianc.github.io/IFE-dataV/task_1_1_1.html)
 
@@ -26,7 +27,8 @@
 
 12| [**学习CSS 3的新特性(Demo建设中……)**]
 
-##[**IFE春季班第二阶段任务官方简介**](http://mp.weixin.qq.com/s?__biz=MzA4MjUyNjY3Nw==&mid=402057593&idx=1&sn=ef20d1808470688bee1c8e242349b47c#rd) -- 我的DEMO
+##[**IFE春季班第二阶段任务官方简介**](http://mp.weixin.qq.com/s?__biz=MzA4MjUyNjY3Nw==&mid=402057593&idx=1&sn=ef20d1808470688bee1c8e242349b47c#rd)
+-- 我的DEMO：
 
 13| [**零基础JavaScript编码（一）**](http://yijianc.github.io/IFE-dataV/task_2_1_13.html)
 
