@@ -40,7 +40,7 @@
 
 17| [**零基础JavaScript编码（五）**](http://yijianc.github.io/IFE-dataV/task_2_1_17.html)
 
-18| [**基础JavaScript练习（一）(Demo建设中……)**]()
+18| [**基础JavaScript练习（一）(Demo建设中……)**](http://yijianc.github.io/IFE-dataV/task_2_1_18.html)
 
 19| [**基础JavaScript练习（二）(Demo建设中……)**]()
 
