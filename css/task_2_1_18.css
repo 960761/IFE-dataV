@@ -1,0 +1,95 @@
+.box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 0 11px 0 rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 0 11px 0 rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 0 11px 0 rgba(0,0,0,0.4);
+}
+
+.flex-box-row {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row;
+    -webkit-flex-flow: row;
+
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.flex-box-col {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.opts-wrapper {
+    width: 305px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #8c8c8c;
+
+    -webkit-box-shadow: 10px 10px 5px #3E3B3B;
+    -moz-box-shadow: 10px 10px 5px #3E3B3B;
+    box-shadow: 10px 10px 5px #3E3B3B;
+}
+
+input {
+    height: 35px;
+    width: 240px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+input:focus {
+    background-color: #16324a;
+    color: #fff;
+}
+
+.opts-control button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    background-color: #16324a;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.result {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.result > span {
+    display: inline-block;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    line-height: 20px;
+    background-color: #16324a;
+    color: #fff;
+    cursor: pointer;
+}
