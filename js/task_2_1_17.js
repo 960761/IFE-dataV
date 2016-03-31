@@ -54,7 +54,7 @@ var aqiSourceData = {
     CHART_WIDTH,                                                // 常数，用于存储class为.aqi-chart的宽度
     opts = document.querySelectorAll('.op-wrapper label'),      // 日期粒度选项
     // 转换日期粒度用于图表标题
-     chartTitle = function () {
+     chartTitle = function() {
         switch (pageState.nowGraTime) {
             case 'day': return '每日';
             case 'week': return '每周平均';
@@ -69,7 +69,7 @@ CHART_WIDTH = aqiChart.clientWidth;         // 将图表框宽度保存为常数
  */
 var BarConfig = {
     // 生成颜色
-    getRandomColor: function () {
+    getRandomColor: function() {
         var color = '#',
             seed = '0123456789abcdef';
         for (var i = 0; i < 6; i++) {
@@ -80,7 +80,7 @@ var BarConfig = {
     },
 
     // 计算柱状图中每条柱子的宽度，接收两个参数：父容器宽度和对象或数组
-    barWidth: function (CONTAINER_WIDTH, src) {
+    barWidth: function(CONTAINER_WIDTH, src) {
         var barCnt = Object.keys(src).length || src.length;
         return Math.round(CONTAINER_WIDTH / barCnt);
     }

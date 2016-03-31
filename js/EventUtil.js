@@ -25,8 +25,8 @@ var EventUtil = {
      * 适用于当前或未来的元素（比如由脚本创建的新元素）
      * 接收4个参数：要操作元素的父元素、被操作元素、事件名称和事件处理函数
      * */
-    delegate: function (element, childElement, type, handler) {
-        this.addHandler(element, type, function () {
+    delegate: function(element, childElement, type, handler) {
+        this.addHandler(element, type, function() {
             var e = arguments[0] || window.event,
                 target = e.target || e.srcElement;
 
@@ -39,21 +39,21 @@ var EventUtil = {
     /**
      * getEvent()返回对event对象的引用
      * */
-    getEvent: function (event) {
+    getEvent: function(event) {
         return event ? event : window.event;
     },
 
     /**
      * getTarget()返回事件的目标
      * */
-    getTarget: function (event) {
+    getTarget: function(event) {
         return event.target || event.srcElement;
     },
 
     /**
      * preventDefault()取消事件的默认行为
      * */
-    preventDefault: function (event) {
+    preventDefault: function(event) {
         if (event.preventDefault) {
             event.preventDefault();
         } else {
@@ -65,7 +65,7 @@ var EventUtil = {
      * removeHandler()移除事件
      * 接收3个参数：要操作的元素、事件名称和事件处理程序函数
      * */
-    removeHandler: function (element, type, handler) {
+    removeHandler: function(element, type, handler) {
         if (element.removeEventListener) {
             element.removeEventListener(type, handler, false);
         } else if (element.detachEvent) {
@@ -78,7 +78,7 @@ var EventUtil = {
     /**
      * stopPropagation()阻止事件流
      * */
-    stopPropagation: function (event) {
+    stopPropagation: function(event) {
         if (event.stopPropagation) {
             event.stopPropagation();
         } else {
