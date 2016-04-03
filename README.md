@@ -42,7 +42,7 @@
 
 18| [**基础JavaScript练习（一）**](http://yijianc.github.io/IFE-dataV/task_2_1_18.html)
 
-19| [**基础JavaScript练习（二）(Demo建设中……)**]()
+19| [**基础JavaScript练习（二）**](http://yijianc.github.io/IFE-dataV/task_2_1_19.html)
 
 20| [**基础JavaScript练习（三）(Demo建设中……)**]()
 
