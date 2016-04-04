@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="489758b4-af8a-4198-97a4-e65963f0b2ad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/task_2_1_20.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/task_2_1_20.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_2_1_20.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/task_2_1_19.js" afterPath="$PROJECT_DIR$/js/task_2_1_19.js" />
     </list>
     <list id="e64764f4-4bf6-445e-b809-b0ea53bbdbd8" name="Failed commit: Default" comment="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
     <ignored path="IFE-dataV.iws" />
@@ -28,7 +31,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -44,28 +47,58 @@
       <file leaf-file-name="EventUtil.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/EventUtil.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+            <state relative-caret-position="252">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_2_1_19.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task_2_1_19.html">
+      <file leaf-file-name="task_2_1_20.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/task_2_1_20.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="2358">
+              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_2_1_19.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/task_2_1_19.css">
+      <file leaf-file-name="task_2_1_20.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/task_2_1_20.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2304">
-              <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+            <state relative-caret-position="378">
+              <caret line="83" column="56" selection-start-line="79" selection-start-column="37" selection-end-line="83" selection-end-column="56" />
+              <folding>
+                <element signature="e#1#41#0" expanded="false" />
+                <element signature="e#415#430#0" expanded="false" />
+                <element signature="e#455#1522#0" expanded="false" />
+                <element signature="e#1525#1565#0" expanded="false" />
+                <element signature="e#1588#1907#0" expanded="false" />
+                <element signature="e#1910#1925#0" expanded="false" />
+                <element signature="n#!!doc;n#randomBuildData#0" expanded="false" />
+                <element signature="n#!!block;n#randomBuildData#0" expanded="false" />
+                <element signature="n#!!doc;n#processOpts#0" expanded="false" />
+                <element signature="e#6866#6880#0" expanded="false" />
+                <element signature="n#!!block;n#colorSelector#0" expanded="false" />
+                <element signature="e#7236#7251#0" expanded="false" />
+                <element signature="e#7271#7908#0" expanded="false" />
+                <element signature="n#!!doc;n#getInputValue#0" expanded="false" />
+                <element signature="n#!!block;n#getInputValue#0" expanded="false" />
+                <element signature="n#!!block;n#initBtnClick#0" expanded="false" />
+                <element signature="n#!!doc;n#init#0" expanded="false" />
+                <marker date="1459769435453" expanded="true" signature="7451:7494" placeholder="..." />
+                <marker date="1459769435453" expanded="true" signature="7732:7824" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_2_1_20.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task_2_1_20.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -74,8 +107,8 @@
       <file leaf-file-name="task_2_1_19.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/task_2_1_19.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1332">
-              <caret line="127" column="16" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="16" />
+            <state relative-caret-position="338">
+              <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
                 <element signature="e#415#430#0" expanded="false" />
@@ -86,17 +119,16 @@
                 <element signature="n#!!doc;n#randomBuildData#0" expanded="false" />
                 <element signature="n#!!block;n#randomBuildData#0" expanded="false" />
                 <element signature="n#!!doc;n#processOpts#0" expanded="false" />
-                <element signature="n#!!block;n#processOpts#0" expanded="false" />
-                <element signature="e#6700#6714#0" expanded="false" />
+                <element signature="e#6880#6894#0" expanded="false" />
                 <element signature="n#!!block;n#colorSelector#0" expanded="false" />
-                <element signature="e#7070#7085#0" expanded="false" />
-                <element signature="e#7105#7742#0" expanded="false" />
+                <element signature="e#7250#7265#0" expanded="false" />
+                <element signature="e#7285#7922#0" expanded="false" />
                 <element signature="n#!!doc;n#getInputValue#0" expanded="false" />
                 <element signature="n#!!block;n#getInputValue#0" expanded="false" />
                 <element signature="n#!!block;n#initBtnClick#0" expanded="false" />
                 <element signature="n#!!doc;n#init#0" expanded="false" />
-                <marker date="1459719458690" expanded="true" signature="7285:7328" placeholder="..." />
-                <marker date="1459719458690" expanded="true" signature="7566:7658" placeholder="..." />
+                <marker date="1459769470671" expanded="true" signature="7465:7508" placeholder="..." />
+                <marker date="1459769470671" expanded="true" signature="7746:7838" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -153,8 +185,11 @@
         <option value="$PROJECT_DIR$/tmp.html" />
         <option value="$PROJECT_DIR$/css/task_2_1_19.css" />
         <option value="$PROJECT_DIR$/task_2_1_19.html" />
-        <option value="$PROJECT_DIR$/js/task_2_1_19.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/task_2_1_20.html" />
+        <option value="$PROJECT_DIR$/css/task_2_1_20.css" />
+        <option value="$PROJECT_DIR$/js/task_2_1_20.js" />
+        <option value="$PROJECT_DIR$/js/task_2_1_19.js" />
       </list>
     </option>
   </component>
@@ -214,7 +249,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,22 +267,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IFE-dataV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IFE-dataV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,7 +377,8 @@
       <workItem from="1459670275426" duration="3106000" />
       <workItem from="1459680026254" duration="21183000" />
       <workItem from="1459749908023" duration="1155000" />
-      <workItem from="1459751096352" duration="7697000" />
+      <workItem from="1459751096352" duration="10413000" />
+      <workItem from="1459767399828" duration="1789000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
       <created>1458971047587</created>
@@ -505,33 +527,40 @@
       <option name="project" value="LOCAL" />
       <updated>1459758777612</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Optimize README.md">
+      <created>1459758872167</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1459758872167</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297611000" />
+    <option name="totallyTimeSpent" value="302116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14934114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14860907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3249258" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -582,7 +611,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/task_2_1_19.js</url>
-          <line>289</line>
+          <line>293</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
@@ -591,31 +620,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/task_2_1_18.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#2379#2698#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/task_2_1_17.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/EventUtil.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -892,14 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/EventUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp.html" />
     <entry file="file://$PROJECT_DIR$/js/tmp.js" />
     <entry file="file://$PROJECT_DIR$/task_2_1_17.html">
@@ -916,18 +912,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="72">
+            <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/task_2_1_19.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2304">
-          <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+        <state relative-caret-position="585">
+          <caret line="128" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/EventUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task_2_1_20.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2358">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/task_2_1_20.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="83" column="56" selection-start-line="79" selection-start-column="37" selection-end-line="83" selection-end-column="56" />
+          <folding>
+            <element signature="e#1#41#0" expanded="false" />
+            <element signature="e#415#430#0" expanded="false" />
+            <element signature="e#455#1522#0" expanded="false" />
+            <element signature="e#1525#1565#0" expanded="false" />
+            <element signature="e#1588#1907#0" expanded="false" />
+            <element signature="e#1910#1925#0" expanded="false" />
+            <element signature="n#!!doc;n#randomBuildData#0" expanded="false" />
+            <element signature="n#!!block;n#randomBuildData#0" expanded="false" />
+            <element signature="n#!!doc;n#processOpts#0" expanded="false" />
+            <element signature="e#6866#6880#0" expanded="false" />
+            <element signature="n#!!block;n#colorSelector#0" expanded="false" />
+            <element signature="e#7236#7251#0" expanded="false" />
+            <element signature="e#7271#7908#0" expanded="false" />
+            <element signature="n#!!doc;n#getInputValue#0" expanded="false" />
+            <element signature="n#!!block;n#getInputValue#0" expanded="false" />
+            <element signature="n#!!block;n#initBtnClick#0" expanded="false" />
+            <element signature="n#!!doc;n#init#0" expanded="false" />
+            <marker date="1459769435453" expanded="true" signature="7451:7494" placeholder="..." />
+            <marker date="1459769435453" expanded="true" signature="7732:7824" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/task_2_1_19.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="127" column="16" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="16" />
+        <state relative-caret-position="338">
+          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
             <element signature="e#415#430#0" expanded="false" />
@@ -938,43 +994,33 @@
             <element signature="n#!!doc;n#randomBuildData#0" expanded="false" />
             <element signature="n#!!block;n#randomBuildData#0" expanded="false" />
             <element signature="n#!!doc;n#processOpts#0" expanded="false" />
-            <element signature="n#!!block;n#processOpts#0" expanded="false" />
-            <element signature="e#6700#6714#0" expanded="false" />
+            <element signature="e#6880#6894#0" expanded="false" />
             <element signature="n#!!block;n#colorSelector#0" expanded="false" />
-            <element signature="e#7070#7085#0" expanded="false" />
-            <element signature="e#7105#7742#0" expanded="false" />
+            <element signature="e#7250#7265#0" expanded="false" />
+            <element signature="e#7285#7922#0" expanded="false" />
             <element signature="n#!!doc;n#getInputValue#0" expanded="false" />
             <element signature="n#!!block;n#getInputValue#0" expanded="false" />
             <element signature="n#!!block;n#initBtnClick#0" expanded="false" />
             <element signature="n#!!doc;n#init#0" expanded="false" />
-            <marker date="1459719458690" expanded="true" signature="7285:7328" placeholder="..." />
-            <marker date="1459719458690" expanded="true" signature="7566:7658" placeholder="..." />
+            <marker date="1459769470671" expanded="true" signature="7465:7508" placeholder="..." />
+            <marker date="1459769470671" expanded="true" signature="7746:7838" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task_2_1_19.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+    <entry file="file://$PROJECT_DIR$/task_2_1_20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="72">
-            <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

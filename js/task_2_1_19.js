@@ -77,7 +77,11 @@ var SortApproaches = {
      * 传入元素集合作为参数
      */
     flexOrderSort: function (elArr) {
-            elArr.forEach(function (item) {
+        // 将 NodeList 转换为 Array
+        // 如果不做这一步，Firefox和IE无法直接将传入的NodeList当成数组，进而无法使用forEach
+        // 在chrome浏览器中就没这个问题
+        let elLists = Array.prototype.slice.call(elArr);
+        elLists.forEach(function (item) {
                 item.style.order = item.title;
                 console.log(item.style.order);
             });
