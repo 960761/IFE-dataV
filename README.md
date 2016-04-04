@@ -2,7 +2,7 @@
 
 我在百度前端技术学院*2016春季班*做的任务练习代码都存放在这个仓库里。
 
-**百度前端技术学院详情：**[http://ife.baidu.com/](http://ife.baidu.com/)
+**百度前端技术学院详情：**[http://ife.baidu.com](http://ife.baidu.com)
 
 **所有任务链接：**[http://ife.baidu.com/task/all](http://ife.baidu.com/task/all)
 
