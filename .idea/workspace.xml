@@ -9,7 +9,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/task_2_1_20.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_2_1_20.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/task_2_1_19.js" afterPath="$PROJECT_DIR$/js/task_2_1_19.js" />
     </list>
     <list id="e64764f4-4bf6-445e-b809-b0ea53bbdbd8" name="Failed commit: Default" comment="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
     <ignored path="IFE-dataV.iws" />
@@ -57,79 +56,43 @@
       <file leaf-file-name="task_2_1_20.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/task_2_1_20.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2358">
-              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+            <state relative-caret-position="387">
+              <caret line="132" column="27" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_2_1_20.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="task_2_1_20.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/task_2_1_20.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="83" column="56" selection-start-line="79" selection-start-column="37" selection-end-line="83" selection-end-column="56" />
+            <state relative-caret-position="217">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#1#41#0" expanded="false" />
-                <element signature="e#415#430#0" expanded="false" />
-                <element signature="e#455#1522#0" expanded="false" />
-                <element signature="e#1525#1565#0" expanded="false" />
-                <element signature="e#1588#1907#0" expanded="false" />
-                <element signature="e#1910#1925#0" expanded="false" />
-                <element signature="n#!!doc;n#randomBuildData#0" expanded="false" />
-                <element signature="n#!!block;n#randomBuildData#0" expanded="false" />
-                <element signature="n#!!doc;n#processOpts#0" expanded="false" />
-                <element signature="e#6866#6880#0" expanded="false" />
-                <element signature="n#!!block;n#colorSelector#0" expanded="false" />
-                <element signature="e#7236#7251#0" expanded="false" />
-                <element signature="e#7271#7908#0" expanded="false" />
+                <element signature="e#490#530#0" expanded="false" />
+                <element signature="e#553#1108#0" expanded="false" />
+                <element signature="e#1111#1126#0" expanded="false" />
+                <element signature="e#1151#2218#0" expanded="false" />
+                <element signature="n#!!block;n#processOpts#0" expanded="false" />
+                <element signature="e#2405#3866#0" expanded="false" />
+                <element signature="e#3872#4214#0" expanded="false" />
+                <element signature="e#4218#4233#0" expanded="false" />
+                <element signature="e#4253#4432#0" expanded="false" />
+                <element signature="n#!!block;n#searchMatch#0" expanded="false" />
                 <element signature="n#!!doc;n#getInputValue#0" expanded="false" />
-                <element signature="n#!!block;n#getInputValue#0" expanded="false" />
-                <element signature="n#!!block;n#initBtnClick#0" expanded="false" />
                 <element signature="n#!!doc;n#init#0" expanded="false" />
-                <marker date="1459769435453" expanded="true" signature="7451:7494" placeholder="..." />
-                <marker date="1459769435453" expanded="true" signature="7732:7824" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_2_1_20.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task_2_1_20.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task_2_1_20.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state relative-caret-position="99">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task_2_1_19.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/task_2_1_19.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-                <element signature="e#415#430#0" expanded="false" />
-                <element signature="e#455#1522#0" expanded="false" />
-                <element signature="e#1525#1565#0" expanded="false" />
-                <element signature="e#1588#1907#0" expanded="false" />
-                <element signature="e#1910#1925#0" expanded="false" />
-                <element signature="n#!!doc;n#randomBuildData#0" expanded="false" />
-                <element signature="n#!!block;n#randomBuildData#0" expanded="false" />
-                <element signature="n#!!doc;n#processOpts#0" expanded="false" />
-                <element signature="e#6880#6894#0" expanded="false" />
-                <element signature="n#!!block;n#colorSelector#0" expanded="false" />
-                <element signature="e#7250#7265#0" expanded="false" />
-                <element signature="e#7285#7922#0" expanded="false" />
-                <element signature="n#!!doc;n#getInputValue#0" expanded="false" />
-                <element signature="n#!!block;n#getInputValue#0" expanded="false" />
-                <element signature="n#!!block;n#initBtnClick#0" expanded="false" />
-                <element signature="n#!!doc;n#init#0" expanded="false" />
-                <marker date="1459769470671" expanded="true" signature="7465:7508" placeholder="..." />
-                <marker date="1459769470671" expanded="true" signature="7746:7838" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -186,10 +149,10 @@
         <option value="$PROJECT_DIR$/css/task_2_1_19.css" />
         <option value="$PROJECT_DIR$/task_2_1_19.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/task_2_1_20.html" />
-        <option value="$PROJECT_DIR$/css/task_2_1_20.css" />
-        <option value="$PROJECT_DIR$/js/task_2_1_20.js" />
         <option value="$PROJECT_DIR$/js/task_2_1_19.js" />
+        <option value="$PROJECT_DIR$/task_2_1_20.html" />
+        <option value="$PROJECT_DIR$/js/task_2_1_20.js" />
+        <option value="$PROJECT_DIR$/css/task_2_1_20.css" />
       </list>
     </option>
   </component>
@@ -248,7 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,9 +230,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IFE-dataV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IFE-dataV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IFE-dataV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IFE-dataV" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,6 +274,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Boyce/Documents/GitHub/IFE-dataV/js/task_2_1_20.js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -378,7 +370,8 @@
       <workItem from="1459680026254" duration="21183000" />
       <workItem from="1459749908023" duration="1155000" />
       <workItem from="1459751096352" duration="10413000" />
-      <workItem from="1459767399828" duration="1789000" />
+      <workItem from="1459767399828" duration="16949000" />
+      <workItem from="1459831681507" duration="10075000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/gh-pages' into gh-pages&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;">
       <created>1458971047587</created>
@@ -534,17 +527,24 @@
       <option name="project" value="LOCAL" />
       <updated>1459758872167</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Fixed bugs in task_2_1_19.js">
+      <created>1459769557014</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1459769557014</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="302116000" />
+    <option name="totallyTimeSpent" value="327351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14860907" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3249258" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -604,7 +604,8 @@
     <MESSAGE value="task _2_1_18" />
     <MESSAGE value="task _2_1_19" />
     <MESSAGE value="Optimize README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimize README.md" />
+    <MESSAGE value="Fixed bugs in task_2_1_19.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs in task_2_1_19.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -614,8 +615,13 @@
           <line>293</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/task_2_1_20.js</url>
+          <line>92</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -830,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_1_1_7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/task_2_1_16.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -929,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/task_2_1_19.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="128" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/EventUtil.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -944,62 +936,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/task_2_1_20.css">
+    <entry file="file://$PROJECT_DIR$/task_2_1_19.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2358">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        <state relative-caret-position="333">
+          <caret line="24" column="38" selection-start-line="23" selection-start-column="56" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task_1_1_7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/task_2_1_19.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="89" column="28" selection-start-line="87" selection-start-column="0" selection-end-line="89" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/task_2_1_20.js">
+    <entry file="file://$PROJECT_DIR$/task_2_1_20.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="83" column="56" selection-start-line="79" selection-start-column="37" selection-end-line="83" selection-end-column="56" />
-          <folding>
-            <element signature="e#1#41#0" expanded="false" />
-            <element signature="e#415#430#0" expanded="false" />
-            <element signature="e#455#1522#0" expanded="false" />
-            <element signature="e#1525#1565#0" expanded="false" />
-            <element signature="e#1588#1907#0" expanded="false" />
-            <element signature="e#1910#1925#0" expanded="false" />
-            <element signature="n#!!doc;n#randomBuildData#0" expanded="false" />
-            <element signature="n#!!block;n#randomBuildData#0" expanded="false" />
-            <element signature="n#!!doc;n#processOpts#0" expanded="false" />
-            <element signature="e#6866#6880#0" expanded="false" />
-            <element signature="n#!!block;n#colorSelector#0" expanded="false" />
-            <element signature="e#7236#7251#0" expanded="false" />
-            <element signature="e#7271#7908#0" expanded="false" />
-            <element signature="n#!!doc;n#getInputValue#0" expanded="false" />
-            <element signature="n#!!block;n#getInputValue#0" expanded="false" />
-            <element signature="n#!!block;n#initBtnClick#0" expanded="false" />
-            <element signature="n#!!doc;n#init#0" expanded="false" />
-            <marker date="1459769435453" expanded="true" signature="7451:7494" placeholder="..." />
-            <marker date="1459769435453" expanded="true" signature="7732:7824" placeholder="..." />
-          </folding>
+        <state relative-caret-position="99">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/task_2_1_19.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+        <state relative-caret-position="426">
+          <caret line="236" column="23" selection-start-line="236" selection-start-column="16" selection-end-line="236" selection-end-column="23" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
             <element signature="e#415#430#0" expanded="false" />
             <element signature="e#455#1522#0" expanded="false" />
             <element signature="e#1525#1565#0" expanded="false" />
-            <element signature="e#1588#1907#0" expanded="false" />
             <element signature="e#1910#1925#0" expanded="false" />
+            <element signature="e#1947#3863#0" expanded="false" />
+            <element signature="e#2503#3861#0" expanded="false" />
+            <element signature="n#!!block;n#reset#0" expanded="false" />
             <element signature="n#!!doc;n#randomBuildData#0" expanded="false" />
             <element signature="n#!!block;n#randomBuildData#0" expanded="false" />
             <element signature="n#!!doc;n#processOpts#0" expanded="false" />
+            <element signature="n#!!block;n#processOpts#0" expanded="false" />
             <element signature="e#6880#6894#0" expanded="false" />
-            <element signature="n#!!block;n#colorSelector#0" expanded="false" />
             <element signature="e#7250#7265#0" expanded="false" />
-            <element signature="e#7285#7922#0" expanded="false" />
             <element signature="n#!!doc;n#getInputValue#0" expanded="false" />
-            <element signature="n#!!block;n#getInputValue#0" expanded="false" />
             <element signature="n#!!block;n#initBtnClick#0" expanded="false" />
             <element signature="n#!!doc;n#init#0" expanded="false" />
             <marker date="1459769470671" expanded="true" signature="7465:7508" placeholder="..." />
@@ -1008,19 +994,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_2_1_19.html">
+    <entry file="file://$PROJECT_DIR$/css/task_2_1_20.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="387">
+          <caret line="132" column="27" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_2_1_20.html">
+    <entry file="file://$PROJECT_DIR$/js/task_2_1_20.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="217">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#1#41#0" expanded="false" />
+            <element signature="e#490#530#0" expanded="false" />
+            <element signature="e#553#1108#0" expanded="false" />
+            <element signature="e#1111#1126#0" expanded="false" />
+            <element signature="e#1151#2218#0" expanded="false" />
+            <element signature="n#!!block;n#processOpts#0" expanded="false" />
+            <element signature="e#2405#3866#0" expanded="false" />
+            <element signature="e#3872#4214#0" expanded="false" />
+            <element signature="e#4218#4233#0" expanded="false" />
+            <element signature="e#4253#4432#0" expanded="false" />
+            <element signature="n#!!block;n#searchMatch#0" expanded="false" />
+            <element signature="n#!!doc;n#getInputValue#0" expanded="false" />
+            <element signature="n#!!doc;n#init#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
