@@ -114,6 +114,10 @@ textarea {
     height: 100%;
     /*padding: 10px;*/
     background-color: #fff;
+    overflow-y: auto;
+    -ms-overflow-y: auto;
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
 
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
