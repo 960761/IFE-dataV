@@ -110,4 +110,16 @@
 
 - [任务要求](http://ife.baidu.com/task/detail?taskId=19)
 - [在线demo](http://yijianc.github.io/IFE-dataV/task_2_1_19.html)
+- [学习笔记：NodeList 对象是一个节点的集合却不是数组](http://ife.baidu.com/note/detail?noteId=765)
 
+**04| 文本查询功能**
+
+    当文本查询框中有需要查询的内容，点击查询按钮，将匹配到的内容进行特殊标识。
+
+- [任务要求](http://ife.baidu.com/task/detail?taskId=20)
+- [在线demo](http://yijianc.github.io/IFE-dataV/task_2_1_20.html)
+
+**05| 处理Tag和兴趣爱好列表**
+
+- [任务要求](http://ife.baidu.com/task/detail?taskId=21)
+- [在线demo](http://yijianc.github.io/IFE-dataV/task_2_1_21.html)
