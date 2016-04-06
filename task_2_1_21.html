@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务二十一：基础JavaScript练习（四）</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/task_2_1_21.css" rel="stylesheet">
+</head>
+<body>
+<div class="flex-box-row">
+    <div class="opts-wrapper flex-box-col box">
+        <input id="tags-input" type="text" placeholder="Tag输入框">
+        <div class="result flex-box-col">
+            <ul>
+                <li>说明：</li>
+                <li>不接收空值；</li>
+                <li>输入空格，逗号，回车时，当前输入的内容会被视为一个tag自动贴在这里；</li>
+                <li>重复的tag将会自动忽视；</li>
+                <li>tag两边多余的空格会消失；</li>
+                <li>多于10个tag时，最新的tag会把最先输入的tag覆盖；</li>
+                <li>鼠标点击单个tag可以将其移除。</li>
+            </ul>
+        </div>
+    </div>
+    <div class="chart-wrapper flex-box-col">
+        <div class="opts-control flex-box-row">
+            <div class="text-input">
+                <textarea id="multiText" placeholder="兴趣爱好输入框"></textarea>
+            </div>
+            <button id="confirm-btn">确认</button>
+        </div>
+        <div class="chart-board flex-box-row">
+            <ul>
+                <li>说明：</li>
+                <li>不接收空值；</li>
+                <li>支持同时输入多个兴趣爱好，非数字、英文、中文字符将视为间隔符号；</li>
+                <li>重复的兴趣爱好将会自动忽视；</li>
+                <li>多于10个兴趣爱好时，最新的会把最先输入的覆盖。</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="js/EventUtil.js"></script>
+<script src="js/task_2_1_21.js"></script>
+</body>
+</html>

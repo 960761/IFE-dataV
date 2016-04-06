@@ -121,5 +121,7 @@
 
 **05| 处理Tag和兴趣爱好列表**
 
+    实现了tag输入和兴趣爱好输入
+
 - [任务要求](http://ife.baidu.com/task/detail?taskId=21)
 - [在线demo](http://yijianc.github.io/IFE-dataV/task_2_1_21.html)
